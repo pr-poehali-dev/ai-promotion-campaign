@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Невалидные параметры возвращают 400",
+      "method": "POST",
+      "path": "/",
+      "body": {"session_token": "", "mode": "text", "result": "win", "score": 100},
+      "expectedStatus": 400
+    }
+  ]
+}

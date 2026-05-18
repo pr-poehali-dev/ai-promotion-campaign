@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Топ лидеров",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    }
+  ]
+}

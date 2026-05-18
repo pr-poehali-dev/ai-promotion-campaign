@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Регистрация нового игрока",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "ТестИгрок"},
+      "expectedStatus": 201
+    },
+    {
+      "name": "GET без токена — ошибка",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 400
+    }
+  ]
+}
